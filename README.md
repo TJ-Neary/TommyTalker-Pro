@@ -1,6 +1,6 @@
 # TommyTalker Pro
 
-![TommyTalker Pro](assets/images/hero-banner.png)
+![TommyTalker Pro](assets/images/hero-banner.jpg)
 
 ![Showcase](https://img.shields.io/badge/type-showcase-purple?style=flat-square)
 ![Python](https://img.shields.io/badge/python-3.12+-blue?style=flat-square)
