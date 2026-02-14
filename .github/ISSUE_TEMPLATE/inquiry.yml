@@ -1,0 +1,29 @@
+name: Professional Inquiry
+description: Contact regarding this project or professional opportunities.
+title: "[Inquiry]: "
+labels: ["inquiry"]
+body:
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason for Contact
+      options:
+        - Recruitment / Hiring
+        - Freelance / Consulting Opportunity
+        - Technical Question
+        - Collaboration
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: Message
+      placeholder: "Hi TJ, I saw your architecture for..."
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Preferred Contact Method
+      placeholder: "email@example.com or LinkedIn URL"
